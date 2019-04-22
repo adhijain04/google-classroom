@@ -1,0 +1,106 @@
+.class-list-navbar
+	display: flex
+	padding: 20px 5%
+	align-items: center
+	justify-content: space-between
+	box-shadow: 1px 1px 15px rgba(#c1c1c1, 0.3)
+	.class-list-header
+		margin: 0
+		color: #515356
+		font-size: 35px
+		text-align: center
+	.create-class-icon
+		cursor: pointer
+		padding: 10px 11px
+		&:hover
+			padding: 10px 11px
+			border-radius: 50px
+			background: rgba(#c1c1c1, .3)
+.classes-container
+	display: flex
+	padding: 20px 5%
+	.newClass
+		width: 200px
+		height: 250px
+		margin-right: 10px
+		border-radius: 7px
+		border: solid 1px #c1c1c1
+		.class-content-container
+			width: 100%
+			height: 100px
+			padding: 5px
+			background: #f8f8f
+			.class-contents
+				.class-title
+					margin: 0px
+					color: #515356
+					&:hover
+						color: #ef5a20
+						cursor: pointer
+				.class-tags
+					display: flex
+					align-items: center
+					margin: 6px 0
+					justify-content: flex-start
+					p
+						margin: 0px
+						color: #515356
+						border: solid 1px #a9a9a9
+						padding: 3px 15px
+						border-radius: 50px
+						margin-right: 10px
+				.class-desc
+					margin: 0px
+					color: #515356
+					font-weight: 500
+					font-size: 16px !important
+					overflow: hidden
+					display: -webkit-box
+					-webkit-line-clamp: 3
+					-webkit-box-orient: vertical
+			.class-actions-container
+				display: flex
+				margin-top: 15px
+				padding-top: 15px
+				align-items: center
+				justify-content: space-between
+				border-top: solid 1px #eee
+				div
+					p
+						margin: 0
+					.owner
+						display: flex
+						cursor: pointer
+						align-items: flex-start
+						img
+							width: 50px
+							border-radius: 50%
+				.class-action
+					color: #515356
+					margin-right: 10px
+				.read-more
+					color: #515356
+					border: none
+					cursor: pointer
+					padding: 8px 15px
+					border-radius: 50px
+					background: transparent
+					border: solid 1px #a9a9a9
+					transition: all ease 0.4s
+					&:hover
+						color: #fff
+						background: #ef5a20
+						border: solid 1px #ef5a20
+					&:focus
+						outline-width: 0px
+	.error-container
+		width: 100%
+		height: 80vh
+		display: flex
+		align-items: center
+		justify-content: center
+		p
+			color: #c1c1c1
+			font-size: 25px
+			font-weight: bold
+			text-align: center

@@ -1,0 +1,65 @@
+.class-details-navbar{
+	display: flex;
+	padding: 20px 5%;
+	justify-content: space-between;
+	box-shadow: 1px 1px 15px rgba(193, 193, 193, 0.3);
+
+}
+.class-details-navbar .navbar-toggle{
+	display: flex;
+}
+
+.class-details-navbar .navbar-toggle>.stream{
+	margin-right: 15px;
+	cursor: pointer;
+}
+
+.class-details-navbar .navbar-toggle>.classwork{
+	margin-right: 15px;
+	cursor: pointer;
+}
+
+.classroom-container{
+	padding: 20px 5%;
+}
+
+.classroom-container .classroom-header-div{
+	background: #f8f8f8;
+	padding: 20px;
+	border-radius: 7px;
+}
+
+.classroom-container .classroom-header-div .expand-arrow{
+	width: 100%;
+	text-align: center;
+	cursor: pointer;
+}
+
+.classroom-container .expanded-div{
+	background: #c1c1c1;
+	padding: 20px;
+}
+
+
+.classroom-container .classroom-body-div{
+	margin-top: 30px;
+	display: flex;
+	align-items: flex-start;
+}
+
+.classroom-container .classroom-body-div .classroom-upcoming-div{
+	padding: 20px;
+	border-radius: 7px;
+	height: 150px;
+	box-shadow: 1px 1px 15px rgba(193, 193, 193, 0.3);
+}
+
+.classroom-container .classroom-body-div .classroom-post-section{
+	padding: 20px;
+	cursor: pointer;
+	margin-left: 30px;
+	border-radius: 7px;
+	width: -webkit-fill-available;
+	box-shadow: 1px 1px 15px rgba(193, 193, 193, 0.3);
+}
+
